@@ -1,0 +1,345 @@
+/* common || css || start  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.btn-readmore a {
+    color: #ffc178;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* common || css || end  */
+
+/* nav-bar || css || start  */
+#nav-bar {
+    padding-top: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+#nav-bar #nav-items {
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar #logo {
+    width: 20%;
+}
+
+#nav-bar #nav-menu {
+    width: 80%;
+}
+
+#nav-bar #nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-bar #nav-menu ul li a {
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all linear .5s;
+    text-transform: capitalize;
+    font-family: "Open Sans", serif;
+}
+
+#nav-bar #nav-menu ul li:last-child a {
+    margin-right: 0;
+}
+
+#nav-bar #nav-menu ul li a:hover {
+    color: #000000;
+}
+
+/* nav-bar || css || end  */
+
+/* banner section || css || start  */
+#banner {
+    background: url(../img/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 462px 0;
+}
+
+#banner #banner-items .banner-title {
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: #ffc178;
+    text-transform: uppercase;
+}
+
+#banner #banner-items h1 {
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 37px;
+    line-height: 100px;
+}
+
+#banner #banner-items h1 span {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 91px;
+}
+
+/* banner section || css || end  */
+
+/* holiday section || css || start  */
+#holiday {
+    padding-top: 286px;
+    background-color: #000000;
+}
+
+#holiday #holiday-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#holiday .right-text {
+    align-content: center;
+}
+
+#holiday .right-text .holiday-title {
+    color: #FBD784;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+
+#holiday .right-text .holiday-heading {
+    font-weight: bold;
+    font-size: 64px;
+    color: #ffffff;
+    width: 500px;
+    text-transform: uppercase;
+    padding: 13px 0;
+}
+
+#holiday .right-text .holiday-details {
+    font-size: 14px;
+    /* font-weight: 600; */
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 32px;
+    width: 587px;
+    padding-bottom: 66px;
+}
+
+/* holiday section || css || end  */
+
+/* together section || css || start  */
+#together {
+    background-color: #000000;
+    padding-top: 295px;
+}
+
+#together .together-bg-img {
+    background: url(../img/together-section.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 560px;
+    padding-bottom: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#together .title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #ffc178;
+    padding-bottom: 14px;
+}
+
+#together .heading {
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    padding: 0 194px;
+    padding-bottom: 14px;
+}
+
+#together .details {
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    padding: 0 213px;
+    padding-bottom: 24px;
+}
+
+/* together section || css || end  */
+
+/* culture sector || css || start   */
+#culture {
+    background-color: #000000;
+    padding-top: 295px;
+}
+
+#culture .culture-items {
+    display: flex;
+    align-items: center;
+}
+
+#culture .title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #ffc178;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#culture .heading {
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-right: 33px;
+    padding-bottom: 20px;
+}
+
+#culture .details {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 47px;
+    padding-right: 27px;
+}
+
+/* culture sector || css || end   */
+
+/* footer section || css || start  */
+#footer {
+    padding-top: 200px;
+    /* padding-bottom: 215px; */
+    background-color: #000000;
+}
+
+#footer .footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .left .footer-logo img {
+    width: 173px;
+}
+
+#footer .footer-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-top: 81px;
+    padding-bottom: 36px;
+    width: 490px;
+}
+
+#footer .tnc {
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+#footer .footer-icon {
+    padding-top: 48px;
+}
+
+#footer .footer-icon img {
+    padding-right: 29px;
+}
+
+#footer .right .footer-btn .btn-outside-text {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+#footer .right .footer-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer .right .footer-btn .btn-inside-text {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    height: 59px;
+    width: 232px;
+    background-color: #FFA343;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+#footer .right .footer-menu {
+    display: flex;
+    color: #FFD1A0;
+    /* text-transform: capitalize; */
+    font-size: 20px;
+    font-weight: 700;
+    width: 530px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    line-height: 35px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+#footer .right .footer-menu ul li a {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+#footer .container .footer-copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 165px;
+    padding-bottom: 35px;
+}
+
+#footer .container .footer-copyright p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: 50%;
+    text-transform: capitalize;
+}
+
+/* footer section || css || end  */
