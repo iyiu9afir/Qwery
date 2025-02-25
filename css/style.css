@@ -337,7 +337,8 @@ li {
 #footer .container .footer-copyright p {
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: red;
     opacity: 50%;
     text-transform: capitalize;
 }
